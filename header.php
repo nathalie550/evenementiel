@@ -1,7 +1,7 @@
 <?php
 
 /**
- * The header for astra-enfant thè.
+ * The header for astra-enfant thème.
  *
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
