@@ -1,7 +1,7 @@
 <?php
 
 /**
- * The header for Astra Theme.
+ * The header for astra-enfant thè.
  *
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
@@ -24,11 +24,6 @@ if (!defined('ABSPATH')) {
 	<?php astra_head_top(); ?>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Space+Mono&display=swap" rel="stylesheet">
-	<script src="/scripts/script.js"></script>
 	<?php
 	if (apply_filters('astra_header_profile_gmpg_link', true)) {
 	?>
@@ -57,19 +52,24 @@ if (!defined('ABSPATH')) {
 				)
 			);
 			?>>
+
 		<?php
 		astra_header_before();
 
 		astra_header();
 
-
-
 		astra_header_after();
+		?>
+		<div class="my-header">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/nathalie-9.jpeg'; ?> " alt="photo du hero">
+			<h1 class="text-over">PHOTOGRAPHE EVENT</h1>
+		</div>
 
 
+
+
+		<?php
 		astra_content_before();
-
-
 
 		?>
 		<div id="content" class="site-content">
