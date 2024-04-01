@@ -12,17 +12,6 @@
  Text Domain:  astrachild
 */
 
-:root {
-    --rouge-tertiaire: #FFD6D6;
-    --rouge-secondaire: #FE5858;
-    --gris-light: #E5E5E5;
-    --bleu-foncé: #313144;
-    --noir: #000000;
-    --gris-foncé: #C4C4C4;
-    --gris-médium: #D8D8D8;
-    --rouge: #E00000;
-}
-
 body {
     font-family: "Space Mono", monospace;
     font-weight: 400;
@@ -36,6 +25,49 @@ body {
     font-weight: 500;
     font-style: normal;
 }
+
+
+#content {
+    /* margin-top: 2px; */
+    background-color: blue;
+    /* padding-top: 0px; */
+}
+
+/**
+ * PHOTO DANS LE HERO
+ */
+.my-header {
+    background-position: center center;
+    background-image: url(C:\MAMP\htdocs\evenementiel\wp-content\themes\astra-enfant\images\nathalie-0.jpeg);
+    background-size: cover;
+}
+
+.my-header {
+    display: flex;
+    align-items: center;
+}
+
+.text-over {
+    font-family: Space Mono;
+    font-size: 96px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 150px;
+    color: transparent;
+    -webkit-text-stroke: 1px #F8F8F8;
+    position: absolute;
+    padding-left: 95px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /**
  * MODALE DE CONTACT
